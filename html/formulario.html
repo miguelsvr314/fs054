@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hockey League">
+    <meta name="author" content="Miguel Severiche">
+    <title>Mighty Ducks Hockey League</title>
+    <link rel="stylesheet" href="../formulario.css">
+</head>
+<body>
+    <header>
+        <!-- <img src="./assets/Logo-Mighty-ducks-01.png" id="logoM" alt="Logo Mighty Ducks Hockey League"> -->
+        <h1 id="tittleNav">Mighty Ducks Hockey League</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="./about.html">About MDHL</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./gameInformation.html">Game Information</a>
+            <a href="./rulesAndPolicies.html">Rules & Policies</a>
+            <a href="#">Form Registration</a>
+        </nav>
+    </header>
+
+<main>
+    <section>
+        <h2 id="formR">Form Registration</h2>
+        <form action="./show_data.html" method="get">
+
+            <fieldset>
+                <legend>Registration </legend>
+                
+                    <label for="firstname">Player's First name:</label>
+                    <input type="text" name="nombre" id="firstname"  required>
+
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="apellido" id="lastname" required>
+
+                    <label for="address">Street Address:</label>
+                    <input type="text" name="address" id="address" required>
+
+                    <label for="zipcode">Zipcode:</label>
+                    <input type="text" name="zipcode" id="zipcode" required>
+
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city" required>
+
+                    <label for="birthdate">Birth Date:</label>
+                    <input type="date" name="Fecha" id="birthdate" required>
+
+                    <h2>Gender: </h2>
+                    <label for="female">Female
+                        <input type="radio" name="genero" id="female" value="female" required>
+                    </label>
+                    <label for="male">Male
+                        <input type="radio" name="genero" id="male" value="male" required>
+                    </label>
+
+                    <h2>Grade: </h2>
+                    <label for="PreSchool">Pre-School
+                        <input type="radio" name="grade" id="PreSchool" value="Pre-School" required>
+                    </label>
+                        <label for="grade1">1st
+                            <input type="radio" name="grade" id="grade1" value="1st" required>
+                        </label>
+                        <label for="grade2">2nd
+                            <input type="radio" name="grade" id="grade2" value="2nd" required>
+                        </label>
+                        <label for="grade3">3rd
+                            <input type="radio" name="grade" id="grade3" value="3rd" required>
+                        </label>
+                        <label for="grade4">4th
+                            <input type="radio" name="grade" id="grade4" value="4th" required>
+                        </label>
+                        <label for="grade5">5th
+                            <input type="radio" name="grade" id="grade5" value="5th" required>
+                        </label>
+                    </fieldset>
+            <fieldset>
+                <legend>Which elementary school do you live near?</legend>
+                <h2>Closest School:</h2>
+                <label for="school1">AJ Katzenmaier
+                    <input type="radio" name="school" id="school1" value="school1" required>
+                </label>
+                <label for="school2">Greenbay
+                    <input type="radio" name="school" id="school2" value="school2" required>
+                </label>
+                <label for="school3">Howard A Yeager
+                    <input type="radio" name="school" id="school3" value="school3" required>
+                </label>
+                <label for="school4">Marjorie P Hart
+                    <input type="radio" name="school" id="school4" value="school4" required>
+                </label>
+                <label for="school5">North Elementary
+                    <input type="radio" name="school" id="school5" value="school5" required>
+                </label>
+                <label for="school6">South Elementary
+                    <input type="radio" name="school" id="school6" value="school6" required>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What position(s) do you normally play? (check all that apply)</legend>
+                <label for="Forward">Forward
+                    <input type="checkbox" name="position" id="Forward" value="Forward" required>
+                </label>
+
+                <label for="Defense">Defense
+                    <input type="checkbox" name="position" id="Defense" value="Defense" required>
+                </label>
+
+                <label for="Midfield">Midfield
+                    <input type="checkbox" name="position" id="Midfield" value="Midfield" required>
+                </label>
+
+                <label for="Goalkeeper">Goalkeeper
+                    <input type="checkbox" name="position" id="Goalkeeper" value="Goalkeeper" required>
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Uniform Size:</legend>
+                <label for="YouthSmall">Youth Small
+                    <input type="radio" name="size" id="YouthSmall" value="YouthSmall" required>
+                </label>
+
+                <label for="YouthMedium">Youth Medium
+                    <input type="radio" name="size" id="YouthMedium" value="YouthMedium" required>
+                </label>
+
+                <label for="YouthLarge">Youth Large
+                    <input type="radio" name="size" id="YouthLarge" value="YouthLarge" required>
+                </label>
+
+                <label for="Small">Small
+                    <input type="radio" name="size" id="Small" value="Small" required>
+                </label>
+
+                <label for="Medium">Medium
+                    <input type="radio" name="size" id="Medium" value="Medium" required>
+                </label>
+
+                <label for="Large">Large
+                    <input type="radio" name="size" id="Large" value="Large" required>
+                </label>
+
+                <label for="X-Large">X-Large
+                    <input type="radio" name="size" id="X-Large" value="X-Large" required>
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Permission to Play</legend>
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+                    the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
+                    injury associated with hockey and in consideration for the "League" accepting the registrant for its
+                    hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their
+                    employees and associated personnel and volunteers,including the facilities used for practices and
+                    games, against any claim by or on behalf of the registrant as a result of the registrant's
+                    participation in the programand/orbeing transported to or from MDHL sponsored activities, which
+                    transportation
+                    By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso
+                    acknowledge that I have read the cancellation policy and agree to its terms.</p>
+
+                    <label for="ParentSignature">Parent/Guardian Signature:
+                    <input type="text" name="ParentSignature" id="ParentSignature" required>
+                </label>
+
+                <label for="Date">Date:
+                    <input type="date" name="Date" id="Date" required>
+                </label>
+
+            </fieldset>
+            <button>Enviar</button>
+        </form>
+
+        <!-- <section>
+            <h2>Ubicacion</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15705.3943940733!2d-79.529073!3d8.982642999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6f9f3f0f0f0f0f%3A0x9e3f3f0f0f0f0f0f!2sPanam%C3%A1!5e0!3m2!1ses-419!2sco!4v1600143940000!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section> -->
+
+                        <!-- pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" -->
+                        <!-- <label for="otro">Otro
+                    <input type="radio" name="genero" id="otro" value="otro" required>
+                </label> -->
+
+                        <!-- <label for="pais">Nacionalidad:</label>
+                <select name="pais" id="pais" required>
+
+                    <option value="" disabled selected>Seleccione su pais</option>
+                    <option value="Panama">Panama</option>
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Brasil">Brasil</option>
+                </select> -->
+
+
+
+    </section>
+</main>
+<footer id="footerAbout">
+    <p id="footerTxt">All rights reserved © 2024</p>
+</footer>
+</body>
+</html>
